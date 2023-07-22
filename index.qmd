@@ -1,0 +1,62 @@
+---
+title: "Hello World"
+subtitle: "My First Quarto slides"
+author: "Vinay Koure"
+format: revealjs
+editor: visual
+slide-number: c
+logo: logo.png
+title-slide-attributes: 
+  data-background-image: images/frontback.jpg 
+  data-background-size: cover
+  data-background-opacity: 30%
+  data-background-color: white
+  data-background-repeat: "repeat"
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+
+## Bullets
+
+When you click the **Render** button a document will be generated that includes:
+
+-   Content authored with markdown
+-   Output from executable
+
+## images »
+
+![](logo.png){fig-align="center"}
+
+## Columns
+
+::: columns
+::: {.column width="50%"}
+### Left column
+
+-   Mam
+
+-   Sudeshna
+
+-   Krishna
+:::
+
+::: {.column width="50%"}
+### Right column
+
+-   Ajay sir
+
+-   Vinay
+
+-   Subu
+:::
+:::
+
+## Code
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
